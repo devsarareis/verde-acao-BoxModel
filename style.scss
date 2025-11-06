@@ -130,12 +130,21 @@ header {
 
     .card{
         background-color: #ffffff; // cor de fundo do card
+
         width: 19vw; // largura do card
         height: 54vh; // altura do card
         margin: 40px; // espaçamento externo do card
         text-align: center; // centralizar o texto do card
         display: inline-block; // exibir os cards em linha       
-        border-radius: 20px 20px 0 0;
+        border-radius: 20px 20px 20px 20px;
+        box-shadow: 0px 8px 8px rgba(7, 7, 7, 0.2); //sombra suave
+        transition: box-shadow 0.3s ease; // transição suave na sombra
+
+        &:hover {
+            box-shadow: 0px 8px 16px rgba(19, 110, 38, 0.3);
+            transform: translateY(-5px); // Move o card 10px para cima quando passar o mouse
+
+        }
 
 
 

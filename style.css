@@ -178,7 +178,7 @@ p {
   margin-bottom: 20px;
   width: 650px;
   padding: 18px;
-  border: 1px solid #ccc;
+  border: none;
   border-radius: 20px;
   font-family: "Roboto", sans-serif;
   padding-left: 30px;

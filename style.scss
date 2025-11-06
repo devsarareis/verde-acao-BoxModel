@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0; // Remove o espaçamento externo padrão dos navegadores
+    padding: 0; // Remove preenchimento padrão
+    box-sizing: border-box; // Inclui padding e borda no cálculo do tamanho
+}
+
+header {
+    background-color: #66BB6A;
+    height: 15vh;
+    color: #ffffff;
+    //padding-left: 50px; Padding move internamente, movendo da esquerda para a direita
+    //padding-top: 25px; movendo internamente de cima para baixo
+    //padding-bottom: 20px; movendo internamente de baixo para cima (comentar o padding top)
+    //padding-right: 50px; Move internamente da direita para a esquerda
+
+    // margin: 30px; Mostrar que a margin move toda a caixa, movendo os 4 lados (cima, direita, baixo, esquerda)
+    // margin-top: 20px; // top - em cima
+    // margin-left: 30px; // left - esquerda
+    // margin-right: 50px; // right - direita
+    // margin-bottom: 20px; // bottom -  embaixo
+
+    h2 {
+       // display: block; //Ocupa toda a linha
+        //display: inline; //Ocupa somente o tamanho necessário
+        display: inline-block; // Deixa na mesma linha,e permite o controle de largura e altura
+        width: 40%; // Com o inline, ele não aceita tamanhos.
+        padding-left: 160px; // Espaçamento interno da esquerda
+        margin-top: 25px; // Espaçamento externo de cima, joga pra cima
+        font-family: "Sansita Swashed", system-ui; // fonte do título
+        font-size: 40px; // tamanho da fonte do título
+        font-weight: bold; // peso da fonte do título
+
+    }
+
+    /* O nav também é block por padrão, então muda o comportamento */
+
+    nav {
+       // display: block; //Ocupa toda a linha
+       // display: inline; //Ocupa somente o tamanho necessário
+        width: 40%; //Com o inline, ele não aceita tamanhos.
+        display: inline-block; // Deixa namesma linha,e permite o controle de largura e altura
+        text-align: end; // Alinha o conteúdo à direita
+
+        a {
+            margin-left: 40px; // espaço entre os links
+            color: #ffffff; // Cor do link
+            text-decoration: none; //Tira a estilização padrão da tag A
+            font-weight: 500; // Peso da fonte
+            font-family: "Roboto", sans-serif; // Fonte do link
+            &:hover {
+                text-decoration: underline ; // Adiciona sublinhado ao passar o mouse
+            }
+        }
+    }
+}
+
+.background {
+    background-image:url(./assets/background.png); // imagem de fundo
+    height: 80vh; // altura da seção
+    background-repeat: no-repeat; // não repetir a imagem de fundo
+    color: #ffffff; // cor do texto
+    text-align: center; // centralizar o texto
+    background-position: center; // centralizar a imagem de fundo
+    padding-top: 200px;// espaçamento interno de cima
+    background-size: cover; // ajustar a imagem ao tamanho da seção
+
+    h1{
+        font-family: "Sansita Swashed", system-ui; // fonte do título
+        font-size: 65px; // tamanho da fonte do título
+        font-weight: bold; // peso da fonte do título
+    }
+
+    p{
+        margin-top: 20px ; // espaçamento externo de cima
+        margin-bottom: 20px ; // espaçamento externo de baixo
+        width: 40%; // largura do parágrafo
+        margin-left: 390px ; // centralizar o parágrafo
+        font-family: "Roboto", sans-serif; // fonte do parágrafo 
+        font-weight: 700; // peso da fonte do parágrafo
+        
+    }
+}
+    
+    .btn-voluntario{
+        background-color: #66BB6A; // cor de fundo do botão
+        padding: 20px 15px; // espaçamento interno do botão (cima/baixo e esquerda/direita)
+        border-radius: 40px; // bordas arredondadas
+        border: none; // tira a borda padrão do botão
+        width: 230px; // largura do botão
+        color: #ffffff; // cor do texto do botão
+        font-family: "Roboto", sans-serif;
+        font-size: 16px; // tamanho da fonte do botão
+        font-weight: bold; // peso da fonte do botão
+
+        cursor: pointer; // muda o cursor ao passar sobre o botão
+        transition: background-color 0.3s; // animação suave para a cor de fundo
+        &:hover {
+            background-color: #0c4b0e; // cor de fundo ao passar o mouse
+        }
+
+    }
+
+    .cards{
+       background-color: #F1F8E9;  // cor de fundo da seção de cards
+        height: 70vh; // altura da seção de cards
+
+        button{
+            background-color: #66BB6A; // cor de fundo do botão
+        padding: 10px 1px; // espaçamento interno do botão (cima/baixo e esquerda/direita)
+        border-radius: 40px; // bordas arredondadas
+        border: none; // tira a borda padrão do botão
+        width: 140px; // largura do botão
+        color: #ffffff; // cor do texto do botão
+        font-family: "Roboto", sans-serif;
+        font-size: 16px; // tamanho da fonte do botão
+        font-weight: bold; // peso da fonte do botão
+
+        cursor: pointer; // muda o cursor ao passar sobre o botão
+        transition: background-color 0.3s; // animação suave para a cor de fundo
+        &:hover {
+            background-color: #0c4b0e; // cor de fundo ao passar o mouse
+        }
+
+        }
+
+    }
+
+    .card{
+        background-color: #ffffff; // cor de fundo do card
+        width: 19vw; // largura do card
+        height: 54vh; // altura do card
+        margin: 40px; // espaçamento externo do card
+        text-align: center; // centralizar o texto do card
+        display: inline-block; // exibir os cards em linha       
+        border-radius: 20px 20px 0 0;
+
+
+
+
+    
+        }
+
+        img{
+            width: 100%; // largura da imagem do card
+            border-radius: 20px 20px 0 0; // bordas arredondadas da imagem do card
+            height: 30vh; // altura da imagem do card
+
+        }
+
+        h3{
+            margin: 20px; // espaçamento externo de cima do título
+            
+        }
+        p{
+            margin-bottom: 20px; // espaçamento externo do parágrafo
+
+
+        }
+          
+    
+    
+
+    .form{
+        //display: inline-block; // Permite definir largura e altura, mantendo na mesma linha
+        //margin-top: 10px; // Espaçamento externo de cima
+        padding: 100px; // Espaçamento interno do formulário
+        //padding-left: 450px; // Espaçamento interno da esquerda
+        height: 750px; // Altura do formulário
+        background-color: #E8F5E9; // Cor de fundo do formulário
+       // border: solid 5px red;
+
+          .btn-form{
+            margin-left: 400px;
+            padding: 20px 150px;
+            background-color: #66BB6A;
+            color: #ffffff;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 20px;
+            cursor: pointer;
+            border: none;
+            width: 650px;
+
+            cursor: pointer; // muda o cursor ao passar sobre o botão
+        transition: background-color 0.1s; // animação suave para a cor de fundo
+        &:hover {
+            background-color: #0c4b0e; // cor de fundo ao passar o mouse
+        }
+
+           }
+
+
+        .form-h2{
+            font-family: "Roboto", sans-serif; // Fonte do formulario
+            font-size: 40px; // Tamanho da fonte do título do formulário
+            font-weight: 700; // Peso da fonte do título do formulário
+             margin-bottom: 20px; // Espaçamento externo de baixo
+        padding-left: 450px; // Espaçamento interno da esquerda
+           //  border: solid #0c4b0e;
+             width: 100%;
+
+
+
+        }
+
+        .form-p{
+
+            margin-bottom: 15px; // Espaçamento externo de baixo
+            width: 65%; // Largura do parágrafo
+            color: #767676;
+            font-family: "Roboto", sans-serif; // Fonte do parágrafo
+            font-weight: 400;
+            font-size: 25px; // Tamanho da fonte do parágrafo
+            margin: 10px auto 25px auto; // Centraliza o parágrafo horizontalmente
+           // border: solid pink 5px;
+            margin-left: 320px ;
+            //display: inline-block;
+            
+
+        }
+
+        label{ 
+            font-family: "Roboto", sans-serif;
+            font-weight: 700; // Peso da fonte do rótulo
+            font-size: 13px;
+            margin-bottom: 20px; // Espaçamento externo de baixo
+            margin-top: 15px; 
+           // border: solid blue 5px;
+            margin-left: 400px; // Espaçamento interno da esquerda
+
+
+            
+        }
+        input, textarea, select, placeholder{ // Seleciona ambos os elementos input , textarea e select
+            display: block; // Ocupa toda a linha
+           margin-top: 8px; // Espaçamento externo de cima
+            margin-bottom: 20px; // Espaçamento externo de baixo
+            width: 650px; // Largura do campo
+            padding: 18px; // Espaçamento interno do campo
+            //padding-left: 50px;
+            border: 1px solid #ccc; // Borda do campo
+            border-radius: 20px; // Bordas arredondadas do campo
+            font-family: "Roboto", sans-serif;
+            //margin: auto;
+           // border: solid 5px orange;
+           padding-left: 30px; // Espaçamento interno da esquerda
+           margin-left: 400px;
+           font-weight: bold;
+
+         
+
+           
+        }
+        }
+
+        footer{
+            background-color: #66BB6A ;
+            color: #ffffff;
+            height: 13vh;
+            font-size: 1.2rem;
+            font-weight: bold;
+            //border: solid 2px brown;
+
+            p{
+               // border: solid 3px peru;
+                margin-left: 600px;
+                padding-top: 35px; // move a caixa para baixo
+                //padding-bottom: 50px;
+        }
+    }
+
+    
+    
+    
+            
+
+           
+
+          
+        
+
+    
+
+
+
+

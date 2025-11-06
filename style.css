@@ -1,0 +1,199 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #66BB6A;
+  height: 15vh;
+  color: #ffffff;
+  /* O nav também é block por padrão, então muda o comportamento */
+}
+header h2 {
+  display: inline-block;
+  width: 40%;
+  padding-left: 160px;
+  margin-top: 25px;
+  font-family: "Sansita Swashed", system-ui;
+  font-size: 40px;
+  font-weight: bold;
+}
+header nav {
+  width: 40%;
+  display: inline-block;
+  text-align: end;
+}
+header nav a {
+  margin-left: 40px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+
+.background {
+  background-image: url(./assets/background.png);
+  height: 80vh;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  text-align: center;
+  background-position: center;
+  padding-top: 200px;
+  background-size: cover;
+}
+.background h1 {
+  font-family: "Sansita Swashed", system-ui;
+  font-size: 65px;
+  font-weight: bold;
+}
+.background p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 40%;
+  margin-left: 390px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.btn-voluntario {
+  background-color: #66BB6A;
+  padding: 20px 15px;
+  border-radius: 40px;
+  border: none;
+  width: 230px;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.btn-voluntario:hover {
+  background-color: #0c4b0e;
+}
+
+.cards {
+  background-color: #F1F8E9;
+  height: 70vh;
+}
+.cards button {
+  background-color: #66BB6A;
+  padding: 10px 1px;
+  border-radius: 40px;
+  border: none;
+  width: 140px;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.cards button:hover {
+  background-color: #0c4b0e;
+}
+
+.card {
+  background-color: #ffffff;
+  width: 19vw;
+  height: 54vh;
+  margin: 40px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 20px 20px 0 0;
+}
+
+img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+  height: 30vh;
+}
+
+h3 {
+  margin: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.form {
+  padding: 100px;
+  height: 750px;
+  background-color: #E8F5E9;
+}
+.form .btn-form {
+  margin-left: 400px;
+  padding: 20px 150px;
+  background-color: #66BB6A;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+  width: 650px;
+  cursor: pointer;
+  transition: background-color 0.1s;
+}
+.form .btn-form:hover {
+  background-color: #0c4b0e;
+}
+.form .form-h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-left: 450px;
+  width: 100%;
+}
+.form .form-p {
+  margin-bottom: 15px;
+  width: 65%;
+  color: #767676;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  margin: 10px auto 25px auto;
+  margin-left: 320px;
+}
+.form label {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-left: 400px;
+}
+.form input, .form textarea, .form select, .form placeholder {
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  width: 650px;
+  padding: 18px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-family: "Roboto", sans-serif;
+  padding-left: 30px;
+  margin-left: 400px;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #66BB6A;
+  color: #ffffff;
+  height: 13vh;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+footer p {
+  margin-left: 600px;
+  padding-top: 35px;
+}/*# sourceMappingURL=style.css.map */

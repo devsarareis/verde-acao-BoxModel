@@ -115,8 +115,8 @@ header {
         width: 140px; // largura do botão
         color: #ffffff; // cor do texto do botão
         font-family: "Roboto", sans-serif;
-        font-size: 16px; // tamanho da fonte do botão
-        font-weight: bold; // peso da fonte do botão
+        font-size: 20px; // tamanho da fonte do botão
+        font-weight: 700; // peso da fonte do botão
 
         cursor: pointer; // muda o cursor ao passar sobre o botão
         transition: background-color 0.3s; // animação suave para a cor de fundo
@@ -130,9 +130,10 @@ header {
 
     .card{
         background-color: #ffffff; // cor de fundo do card
-
-        width: 19vw; // largura do card
-        height: 54vh; // altura do card
+        font-family: "Roboto" sans-serif;
+        
+        width: 19%; // largura do card
+        height: 60vh; // altura do card
         margin: 40px; // espaçamento externo do card
         text-align: center; // centralizar o texto do card
         display: inline-block; // exibir os cards em linha       
@@ -161,10 +162,17 @@ header {
 
         h3{
             margin: 20px; // espaçamento externo de cima do título
+             font-family: "Roboto" sans-serif;
+        font-size: 20px;
+        font-weight: bold;
             
         }
         p{
             margin-bottom: 20px; // espaçamento externo do parágrafo
+            width: 280px;
+            font-family: "Roboto" sans-serif;
+       // font-size: 20px;
+        font-weight: 400;
 
 
         }
@@ -227,6 +235,7 @@ header {
            // border: solid pink 5px;
             margin-left: 320px ;
             //display: inline-block;
+            text-align: center;
             
 
         }
@@ -280,6 +289,7 @@ header {
                // border: solid 3px peru;
                 margin-left: 600px;
                 padding-top: 35px; // move a caixa para baixo
+                width: 400px;
                 //padding-bottom: 50px;
         }
     }

@@ -27,7 +27,7 @@ header {
         //display: inline; //Ocupa somente o tamanho necessário
         display: inline-block; // Deixa na mesma linha,e permite o controle de largura e altura
         width: 40%; // Com o inline, ele não aceita tamanhos.
-        padding-left: 160px; // Espaçamento interno da esquerda
+        padding-left: 200px; // Espaçamento interno da esquerda
         margin-top: 25px; // Espaçamento externo de cima, joga pra cima
         font-family: "Sansita Swashed", system-ui; // fonte do título
         font-size: 40px; // tamanho da fonte do título
@@ -77,7 +77,7 @@ header {
         margin-top: 20px ; // espaçamento externo de cima
         margin-bottom: 20px ; // espaçamento externo de baixo
         width: 40%; // largura do parágrafo
-        margin-left: 390px ; // centralizar o parágrafo
+        margin-left: 450px ; // centralizar o parágrafo
         font-family: "Roboto", sans-serif; // fonte do parágrafo 
         font-weight: 700; // peso da fonte do parágrafo
         
@@ -168,7 +168,7 @@ header {
         //margin-top: 10px; // Espaçamento externo de cima
         padding: 100px; // Espaçamento interno do formulário
         //padding-left: 450px; // Espaçamento interno da esquerda
-        height: 750px; // Altura do formulário
+        height: 800px; // Altura do formulário
         background-color: #E8F5E9; // Cor de fundo do formulário
        // border: solid 5px red;
 
@@ -262,6 +262,8 @@ header {
             height: 13vh;
             font-size: 1.2rem;
             font-weight: bold;
+            //margin-top: 30px;
+           // padding-top: 35px;
             //border: solid 2px brown;
 
             p{

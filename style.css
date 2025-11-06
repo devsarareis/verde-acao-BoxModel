@@ -16,7 +16,7 @@ header {
 header h2 {
   display: inline-block;
   width: 40%;
-  padding-left: 160px;
+  padding-left: 200px;
   margin-top: 25px;
   font-family: "Sansita Swashed", system-ui;
   font-size: 40px;
@@ -57,7 +57,7 @@ header nav a:hover {
   margin-top: 20px;
   margin-bottom: 20px;
   width: 40%;
-  margin-left: 390px;
+  margin-left: 450px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
@@ -126,7 +126,7 @@ p {
 
 .form {
   padding: 100px;
-  height: 750px;
+  height: 800px;
   background-color: #E8F5E9;
 }
 .form .btn-form {
